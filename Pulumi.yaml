@@ -1,0 +1,7 @@
+name: go_infra
+runtime: go
+description: infra code to create aws resources
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-go
